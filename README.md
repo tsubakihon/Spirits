@@ -31,10 +31,19 @@ How can I customize 'Spirits' ?
 ### LINKS :
 - open the .htm file in a text editor (personally I use Sublime), search for 'LINK1' and replace it by the name of a website you visit frequently (for exemple Facebook). 
 - after that, change the 'http://link1.com/' with the URL of the said site (if we take Facebook, it'll be https://www.facebook.com/).
-- if you want to add a link, copy paste this code (you'll have to change the 'ANOTHER LINk' and the href link of course) after the LINK6 :                                       
+- if you want to add a link, copy paste this code (you'll have to change the 'ANOTHER LINK' and the href link of course) after the LINK6 (around line 67) :                                       
 
 ``` htm 
 <a href="http://anotherlink.com/">
     <li> ANOTHER LINK </li>
 </a> 
+```
+
+### DATES & MONTS :
+- open the .htm file in a text editor, search for 'var days' (it'll be at the beginning of the document, around line 19), and change the days (instead of 'dimanche' you can write 'Sunday' or 'Domingo').
+- search for 'var months' (under the var days) and change the months (instead of janvier, you can write january or enero). 
+
+``` javascript
+var days = ['sunday','monday','tuesday','wenesday','thursday.','friday','saturday'];
+var months=['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december'];
 ```
