@@ -35,7 +35,9 @@ There are two main features :
 How can I customize 'Spirits' ?
 -------------------------------
 
-### LINKS :ile in a text editor (personally I use Sublime), search for 'LINK1' and replace it by the name of a website you visit frequently (for exemple Facebook). 
+### LINKS :
+
+- open the `.htm` file in a text editor (personally I use Sublime), search for 'LINK1' and replace it by the name of a website you visit frequently (for exemple Facebook). 
 - after that, change the 'http://link1.com/' with the URL of the said site (if we take Facebook, it'll be https://www.facebook.com/).
 - if you want to add a link, copy paste this code (you'll have to change the 'ANOTHER LINK' and the href link of course) after the LINK6 (around line 67) :                                       
 
