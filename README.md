@@ -33,6 +33,8 @@ How can I customize 'Spirits' ?
 - after that, change the 'http://link1.com/' with the URL of the said site (if we take Facebook, it'll be https://www.facebook.com/).
 - if you want to add a link,                                         
 
-``` htm <a href="http://link1.com/">
+``` htm 
+<a href="http://link1.com/">
     <li> LINK1 </li>
-</a> ```
+</a> 
+```
