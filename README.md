@@ -37,9 +37,9 @@ How can I customize 'Spirits' ?
 
 ### LINKS :
 
-- open the `.htm` file in a text editor (personally I use Sublime), search for 'LINK1' and replace it by the name of a website you visit frequently (for exemple Facebook). 
-- after that, change the 'http://link1.com/' with the URL of the said site (if we take Facebook, it'll be https://www.facebook.com/).
-- if you want to add a link, copy paste this code (you'll have to change the 'ANOTHER LINK' and the href link of course) after the LINK6 (around line 67) :                                       
+- open the `.htm` file in a text editor (personally I use Sublime), search for `LINK1` and replace it by the name of a website you visit frequently (for exemple Facebook). 
+- after that, change the `http://link1.com/` with the URL of the said site (if we take Facebook, it'll be `https://www.facebook.com/`).
+- if you want to add a link, copy paste this code (you'll have to change the `ANOTHER LINK` and the href link of course) after the LINK6 (around line 67) :                                       
 
 ``` htm 
 <a href="http://anotherlink.com/">
@@ -48,7 +48,7 @@ How can I customize 'Spirits' ?
 ```
 
 ### DATES & MONTS :
-- open the .htm file in a text editor, search for 'var days' (it'll be at the beginning of the document, around line 19), and change the days (instead of 'dimanche' you can write 'sunday' or 'domingo').
+- open the `.htm` file in a text editor, search for 'var days' (it'll be at the beginning of the document, around line 19), and change the days (instead of 'dimanche' you can write 'sunday' or 'domingo').
 - search for 'var months' (under the var days) and change the months (instead of janvier, you can write january or enero). 
 
 ``` javascript
@@ -56,15 +56,15 @@ How can I customize 'Spirits' ?
 var days = ['sunday','monday','tuesday','wenesday','thursday.','friday','saturday'];
 var months=['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december'];
 ```
-- if you want to change the structure of the date, you'll have to edit the following code : the '("0" + m.getDate()).slice(-2)' is the dats, the '(months[m.getMonth() ])' is the month and the 'm.getFullYear()' is the year,
+- if you want to change the structure of the date, you'll have to edit the following code : the `("0" + m.getDate()).slice(-2)` is the dats, the `(months[m.getMonth() ])` is the month and the `m.getFullYear()` is the year,
 
 ``` javascript
 var dateString = (days[ m.getDay() ])  + " " +  ("0" + m.getDate()).slice(-2) + " " + (months[ m.getMonth() ])   + " " + m.getFullYear()            
 ```
 
 ### BANNER & BACKGROUND
-- first of all, like I said previously, change/add the banner in the banner folder and the background in the background folder and renamed them 'background[insert a number].jpg' and 'banner[insert a number].jpg' (you'll have to change the '[insert a number]' of course.
-- open the js folder, and edit banner.js in a text editor : if you one to add others banners/background, you'll have to copy paste this code, you'll have to change the number of course (if you want a fifth banner/background, replace the '4' by '5' : 
+- first of all, like I said previously, change/add the banner in the banner folder and the background in the background folder and renamed them `background[insert a number].jpg` and `banner[insert a number].jpg` (you'll have to change the '[insert a number]' of course.
+- open the js folder, and edit `banner.js` in a text editor : if you one to add others banners/background, you'll have to copy paste this code, you'll have to change the number of course (if you want a fifth banner/background, replace the `4` by `5` : 
 
 ``` javascript
 /* ADDING A FOURTH BANNER AND BACKGROUND */
