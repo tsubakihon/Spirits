@@ -25,11 +25,17 @@ There are 4 differents folders and two files (.htm and .css) :
 - the .htm file is the most important file since you'll need it to open the startpage on your browser, if you want to change the structure of the startpage you'll have to edit it.
 - the .css file will be needed if you want to change the aspect of the startpage, namely the background, the font-family, the size of a picture, etc.
 
+Features of 'Spirits'
+-------------------------------
+
+There are two main features :
+- first, the button 'SHUFFLE', by clicking it you'll be able change the banner/background of the startpage, it'll be at random, otherwise it won't be fun !
+- second, in the search bar, by entering some special keys, such as '-y jazz music', you'll be able to search directly on youtube and not on Google. Another exemple with '-w moe', it'll search 'moe' on wikipedia. I took the code from a startpage called 'Gokouri', can't seem to find it anymore on github tho.
+
 How can I customize 'Spirits' ?
 -------------------------------
 
-### LINKS :
-- open the .htm file in a text editor (personally I use Sublime), search for 'LINK1' and replace it by the name of a website you visit frequently (for exemple Facebook). 
+### LINKS :ile in a text editor (personally I use Sublime), search for 'LINK1' and replace it by the name of a website you visit frequently (for exemple Facebook). 
 - after that, change the 'http://link1.com/' with the URL of the said site (if we take Facebook, it'll be https://www.facebook.com/).
 - if you want to add a link, copy paste this code (you'll have to change the 'ANOTHER LINK' and the href link of course) after the LINK6 (around line 67) :                                       
 
@@ -40,10 +46,33 @@ How can I customize 'Spirits' ?
 ```
 
 ### DATES & MONTS :
-- open the .htm file in a text editor, search for 'var days' (it'll be at the beginning of the document, around line 19), and change the days (instead of 'dimanche' you can write 'Sunday' or 'Domingo').
+- open the .htm file in a text editor, search for 'var days' (it'll be at the beginning of the document, around line 19), and change the days (instead of 'dimanche' you can write 'sunday' or 'domingo').
 - search for 'var months' (under the var days) and change the months (instead of janvier, you can write january or enero). 
 
 ``` javascript
+/* DAYS AND MONTHS IN ENGLISH */
 var days = ['sunday','monday','tuesday','wenesday','thursday.','friday','saturday'];
 var months=['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december'];
+```
+- if you want to change the structure of the date, you'll have to edit the following code : the '("0" + m.getDate()).slice(-2)' is the dats, the '(months[m.getMonth() ])' is the month and the 'm.getFullYear()' is the year,
+
+``` javascript
+var dateString = (days[ m.getDay() ])  + " " +  ("0" + m.getDate()).slice(-2) + " " + (months[ m.getMonth() ])   + " " + m.getFullYear()            
+```
+
+### BANNER & BACKGROUND
+- first of all, like I said previously, change/add the banner in the banner folder and the background in the background folder and renamed them 'background[insert a number].jpg' and 'banner[insert a number].jpg' (you'll have to change the '[insert a number]' of course.
+- open the js folder, and edit banner.js in a text editor : if you one to add others banners/background, you'll have to copy paste this code, you'll have to change the number of course (if you want a fifth banner/background, replace the '4' by '5' : 
+
+``` javascript
+/* ADDING A FOURTH BANNER AND BACKGROUND */
+4: {
+    image: "banner/banner4.jpg",
+    landscape:"background/background04.jpg",
+
+}, 
+```
+- you'll have to change the value in the following code, for example if you have 6 banner/background, you'll have to copy paste this code 
+``` javascript
+var randomNumber = Math.floor((Math.random() * 6) + 1);
 ```
