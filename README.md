@@ -30,7 +30,7 @@ Features of 'Spirits'
 
 There are two main features :
 - first, the button `SHUFFLE`, by clicking it you'll be able change the banner/background of the startpage, it'll be at random, otherwise it won't be fun !
-- second, in the search bar, by entering some special keys, such as `-y jazz music`, you'll be able to search directly on youtube and not on Google. Another exemple with `-w moe`, it'll search 'moe' on wikipedia. I took the code from a startpage called 'Gokouri', can't seem to find it anymore on github tho.
+- second, in the search bar, by entering some special keys, such as `-y jazz music`, you'll be able to search directly on youtube and not on Google. Another exemple with `-w moe`, it'll search 'moe' on wikipedia. I took the code from another existing startpage, but can't seem to remember it now, will put the credits the moment I found it.
 
 How can I customize 'Spirits' ?
 -------------------------------
@@ -64,7 +64,7 @@ var dateString = (days[ m.getDay() ])  + " " +  ("0" + m.getDate()).slice(-2) + 
 
 ### BANNER & BACKGROUND
 - first of all, like I said previously, change/add the banner in the banner folder and the background in the background folder and renamed them `background[insert a number].jpg` and `banner[insert a number].jpg` (you'll have to change the '[insert a number]' of course.
-- open the js folder, and edit `banner.js` in a text editor : if you one to add others banners/background, you'll have to copy paste this code, you'll have to change the number of course (if you want a fifth banner/background, replace the `4` by `5` : 
+- open the `js` folder, and edit `banner.js` in a text editor : if you one to add others banners/background, you'll have to copy paste this code, you'll have to change the number of course (if you want a fifth banner/background, replace the `4` by `5` : 
 
 ``` javascript
 /* ADDING A FOURTH BANNER AND BACKGROUND */
@@ -78,3 +78,48 @@ var dateString = (days[ m.getDay() ])  + " " +  ("0" + m.getDate()).slice(-2) + 
 ``` javascript
 var randomNumber = Math.floor((Math.random() * 6) + 1);
 ```
+
+### SEARCH 
+- open the `js` folder and edit `search.js` in a text editor , you'll have to modify the following code 
+``` javascript
+case "-u":
+query = query.substr(3);
+window.location = "https://userstyles.org/styles/browse?search_terms=" 
+break;
+```
+- first, you have to decide of a website, I will take `bato.to and a special key for this said site, I will take -b, thus you'll have the following code
+
+``` javascript
+case "-b":
+query = query.substr(3);
+window.location = "https://userstyles.org/styles/browse?search_terms=" 
+break;
+```
+- after that, you'll need to replace the value of `window.location`, in the example of batoto you'll have to go to the site and search for something, for example if I'm looking for Hinamatsuri (a pretty gud manga, you should read it asap), the link will be `http://bato.to/search?name=Hinamatsuri&name_cond=c`, you'll have to copy the link before 'Hinamatsuri', namely `http://bato.to/search?name=`, and you'll have the following code 
+
+``` javascript
+case "-b":
+query = query.substr(3);
+window.location = "http://bato.to/search?name=" 
+break;
+```
+How to use 'Spirits' ?
+-------------------------------
+First of all, right click on the `.htm` file and open it with a browser of your choice.
+
+### FOR FIREFOX MOZILLA
+- go to the settings or copy/paste `about:preferences` in the URL bar. In `General`, copy/paste the URL of the startpage (it should be something like `file:///C:/Users/[Your name]/Documents/SPIRIT/index.htm` in `Home Page` and choose the option `Show my home page` for `When Firefox starts`.
+- download the add-on `New Tab Homepage` (https://addons.mozilla.org/en-US/firefox/addon/new-tab-homepage/), it'll redirect you to your homepage each time you open a new tab.
+
+### FOR GOOGLE CHROME
+- go to the settings. In `Appearance`, check `show home page` and modify the link with the URL of the startpage.
+- download the extension `New Tab Redirect` (https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna?hl=en)
+
+Before using the startpage, I suggest you to :
+- download the font I used, namely `Montserrat` (https://www.fontsquirrel.com/fonts/montserrat), `KFHimaji` (http://www.freejapanesefont.com/kf-himaji/) and `Roboto` (https://www.fontsquirrel.com/fonts/roboto), they're all free, lucky you !
+Where can I find you works ?
+-------------------------------
+
+I have a deviantart page : nicknameisfortheweak.deviantart.com
+
+And that's it, I hope you'll enjoy this startpage if you see this submission ! Like usual, if you have find the script cool or bad, if you have questions, suggestions, there is a section called 'Comments', you can use it everytime !
