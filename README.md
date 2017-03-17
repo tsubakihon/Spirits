@@ -25,3 +25,7 @@ There are 4 differents folders and two files (.htm and .css) :
 - the .htm file is the most important file since you'll need it to open the startpage on your browser, if you want to change the structure of the startpage you'll have to edit it.
 - the .css file will be needed if you want to change the aspect of the startpage, namely the background, the font-family, the size of a picture, etc.
 
+How can I customize 'Spirits' ?
+-------------------------------
+
+I/ LINKS
