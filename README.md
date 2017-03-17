@@ -18,10 +18,10 @@ What's the structure of 'Spirits' ?
 -------------------------------
 
 There are 4 differents folders and two files (.htm and .css) : 
--- the first folder 'background' contains, well, the background I used, there are three ones, if you want to change them or add some more, rename them like 'background04.jpg', it'll be easier to edit it in the others files.
--- in the second folder 'banner' you'll find, surprise, the three differents banners I made for the startpage featuring Mako Mankanshoku from Kill La Kill, Sucy Manbavaran from Little Witch Academia and Nia Teppelin from Tengen Toppa Gurren Lagann (I really like these shows). Like the background, if you want to change the banner or add others ones, add the files in this folder and name them 'banner4.jpg'.
--- the icons folder has the icons I used, there are only three : the favicon (ie the icon in the tab), the search and enter icons.
--- the js folder is very important since you'll have to edit some files to add banner/background or modify some functionalities.
--- the .htm file is the most important file since you'll need it to open the startpage on your browser, if you want to change the structure of the startpage you'll have to edit it.
--- the .css file will be needed if you want to change the aspect of the startpage, namely the background, the font-family, the size of a picture, etc.
+- the first folder 'background' contains, well, the background I used, there are three ones, if you want to change them or add some more, rename them like 'background04.jpg', it'll be easier to edit it in the others files.
+- in the second folder 'banner' you'll find, surprise, the three differents banners I made for the startpage featuring Mako Mankanshoku from Kill La Kill, Sucy Manbavaran from Little Witch Academia and Nia Teppelin from Tengen Toppa Gurren Lagann (I really like these shows). Like the background, if you want to change the banner or add others ones, add the files in this folder and name them 'banner4.jpg'.
+- the icons folder has the icons I used, there are only three : the favicon (ie the icon in the tab), the search and enter icons.
+- the js folder is very important since you'll have to edit some files to add banner/background or modify some functionalities.
+- the .htm file is the most important file since you'll need it to open the startpage on your browser, if you want to change the structure of the startpage you'll have to edit it.
+- the .css file will be needed if you want to change the aspect of the startpage, namely the background, the font-family, the size of a picture, etc.
 
