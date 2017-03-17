@@ -29,8 +29,8 @@ Features of 'Spirits'
 -------------------------------
 
 There are two main features :
-- first, the button 'SHUFFLE', by clicking it you'll be able change the banner/background of the startpage, it'll be at random, otherwise it won't be fun !
-- second, in the search bar, by entering some special keys, such as '-y jazz music', you'll be able to search directly on youtube and not on Google. Another exemple with '-w moe', it'll search 'moe' on wikipedia. I took the code from a startpage called 'Gokouri', can't seem to find it anymore on github tho.
+- first, the button `SHUFFLE`, by clicking it you'll be able change the banner/background of the startpage, it'll be at random, otherwise it won't be fun !
+- second, in the search bar, by entering some special keys, such as `-y jazz music`, you'll be able to search directly on youtube and not on Google. Another exemple with `-w moe`, it'll search 'moe' on wikipedia. I took the code from a startpage called 'Gokouri', can't seem to find it anymore on github tho.
 
 How can I customize 'Spirits' ?
 -------------------------------
