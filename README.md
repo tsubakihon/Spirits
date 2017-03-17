@@ -14,6 +14,7 @@ What's a startpage/homepage ?
 
 It's a local website, namely you'll be able to access it thanks to files present on your computer (in general, it'll be a .htm file), and some browser like Firefox Mozilla and Google Chrome will allow you to set a custom homepage. What's more, thanks to some add-ons/extensions such as 'New Tab Homepage' for FF or 'New Tab Redirect' for Chrome, you'll be able to set this said startpage as you new tab page (amazing isn't it ?). There are a lot of custom startpage on the net, you can check this list of startpage http://startpages.github.io/ or search some of them on github/deviantart. 
 
+
 What's the structure of 'Spirits' ?
 -------------------------------
 
@@ -36,7 +37,6 @@ How can I customize 'Spirits' ?
 -------------------------------
 
 ### LINKS :
-
 - open the `.htm` file in a text editor (personally I use Sublime), search for `LINK1` and replace it by the name of a website you visit frequently (for exemple Facebook). 
 - after that, change the `http://link1.com/` with the URL of the said site (if we take Facebook, it'll be `https://www.facebook.com/`).
 - if you want to add a link, copy paste this code (you'll have to change the `ANOTHER LINK` and the href link of course) after the LINK6 (around line 67) :                                       
@@ -47,7 +47,7 @@ How can I customize 'Spirits' ?
 </a> 
 ```
 
-### DATES & MONTS :
+### DATES & MONTHS :
 - open the `.htm` file in a text editor, search for 'var days' (it'll be at the beginning of the document, around line 19), and change the days (instead of 'dimanche' you can write 'sunday' or 'domingo').
 - search for 'var months' (under the var days) and change the months (instead of janvier, you can write january or enero). 
 
