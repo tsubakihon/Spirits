@@ -28,10 +28,11 @@ There are 4 differents folders and two files (.htm and .css) :
 How can I customize 'Spirits' ?
 -------------------------------
 
-If you want to change the links :
-- open the .htm file in a text editor (personally I use Sublime), search for 'LINK1' and replace it by the name of a website you visit frequently (for exemple Facebook). After that, change the 'http://link1.com/' with the URL of the said site (if we take Facebook, it'll be https://www.facebook.com/)
-- if you want to add a link, copy/paste the following code
+### LINKS :
+- open the .htm file in a text editor (personally I use Sublime), search for 'LINK1' and replace it by the name of a website you visit frequently (for exemple Facebook). 
+- after that, change the 'http://link1.com/' with the URL of the said site (if we take Facebook, it'll be https://www.facebook.com/).
+- if you want to add a link,                                         
 
-<a href="http://anotherlink.com/">
-        <li> ANOTHER LINK </li>
-</a>
+``` htm <a href="http://link1.com/">
+    <li> LINK1 </li>
+</a> ```
