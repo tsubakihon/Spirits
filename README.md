@@ -123,4 +123,4 @@ Where can I find you works ?
 
 I have a deviantart page : nicknameisfortheweak.deviantart.com
 
-And that's it, I hope you'll enjoy this startpage if you see this submission ! Like usual, if you have find the script cool or bad, if you have questions, suggestions, there is a section called 'Comments', you can use it everytime !
+And that's it, I hope you'll enjoy this startpage if you see this submission ! Like usual, if you find this startpage cool or bad, if you have questions, suggestions, there is a section called 'Comments', you can use it everytime !
