@@ -16,22 +16,22 @@ function search(query){
     switch(query.substr(0, 2)){
         case "-b":
             query = query.substr(3);
-            window.location = "http://bato.to/search?name=Hinamatsuri&name_cond=c" 
+            window.location = "http://bato.to/search?name="  + query.replaceChars("", "+");
             break;
 
         case "-y":
             query = query.substr(3);
-            window.location = "https://www.youtube.com/results?search_query=" 
+            window.location = "https://www.youtube.com/results?search_query="  + query.replaceChars("", "+");
             break;
 
         case "-w":
             query = query.substr(3);
-            window.location = "https://en.wikipedia.org/wiki/" 
+            window.location = "https://en.wikipedia.org/wiki/"  + query.replaceChars("", "+");
             break;
 
         case "-n":
             query = query.substr(3);
-            window.location = "https://www.nyaa.se/?page=search&cats=0_0&filter=0&term=" 
+            window.location = "https://www.nyaa.se/?page=search&cats=0_0&filter=0&term="  + query.replaceChars("", "+");
             break;
 
         case "-g":
