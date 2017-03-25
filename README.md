@@ -118,6 +118,14 @@ First of all, right click on the `.htm` file and open it with a browser of your 
 Before using the startpage, I suggest you to :
 - download the font I used, namely `Montserrat` (https://www.fontsquirrel.com/fonts/montserrat), `KFHimaji` (http://www.freejapanesefont.com/kf-himaji/) and `Roboto` (https://www.fontsquirrel.com/fonts/roboto), they're all free, lucky you !
 
+Source and Credits
+-------------------------------
+
+The banners were made in GIMP (and not PS unfortunately!) with the vectors of the characters and some background I found on the net :
+- http://hope1134.deviantart.com/art/Mako-Mankanshoku-Fight-Club-Spec-Two-Star-Uniform-442155412 (Mako vector) and http://www.designdiffusion.com/wp-content/uploads/2014/09/16.jpg (background),
+- http://znkhucast.deviantart.com/art/Sucy-Manbavaran-580216558 (Sucy Vector) and https://www.flickr.com/photos/megane_wakui/12815388355/(background),
+- konachan.com/post/show/32651 (Nia Vector) and http://burningmonk.deviantart.com/art/Shinjuku-Dusk-317124910 (background).
+
 Where can I find you works ?
 -------------------------------
 
