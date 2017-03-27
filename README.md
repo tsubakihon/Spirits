@@ -9,6 +9,8 @@ Second version : A BELIEVING HEART IS YOUR MAGIC
 ![screenshot](http://i.imgur.com/siiXX9p.jpg)
 Third version : ROW ROW FIGHT THE POWER 
 
+Here a [live version](https://catgrills.github.io/Spirits/), and don't forget to click on Shuffle !
+
 What's a startpage/homepage ?
 -------------------------------
 
