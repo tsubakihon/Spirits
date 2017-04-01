@@ -120,6 +120,10 @@ li:hover {
 	padding: 0px 40px !important;
 }
 
+input:focus {
+        outline-style: none;	
+}
+
 #image-button {
 	background-color: transparent;
 	background: url("icons/submit.png");
