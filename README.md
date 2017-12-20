@@ -1,53 +1,67 @@
 # Spirits
 
-![screenshot](http://i.imgur.com/qbS29GT.jpg)
-First version : DON'T LOSE YOUR WAY
+![screenshot](https://s1.gifyu.com/images/Screenshot-1211.png)
+1st theme (KLK)
 
-![screenshot](http://i.imgur.com/fmR7mr6.jpg)
-Second version : A BELIEVING HEART IS YOUR MAGIC
+![screenshot](https://s1.gifyu.com/images/Screenshot-1212.png)
+2nd theme (LWA)
 
-![screenshot](http://i.imgur.com/siiXX9p.jpg)
-Third version : ROW ROW FIGHT THE POWER 
+![screenshot](https://s1.gifyu.com/images/Screenshot-1213.png)
+3rd theme (TTGL)  
 
-What's a startpage/homepage ?
+[Live Demo](https://catgrills.github.io/Spirits/) of <i>Spirits</i>.
+
+About
 -------------------------------
 
-It's a local website, namely you'll be able to access it thanks to files present on your computer (in general, it'll be a .htm file), and some browser like Firefox Mozilla and Google Chrome will allow you to set a custom homepage. What's more, thanks to some add-ons/extensions such as 'New Tab Homepage' for FF or 'New Tab Redirect' for Chrome, you'll be able to set this said startpage as you new tab page (amazing isn't it ?). There are a lot of custom startpage on the net, you can check this list of startpage http://startpages.github.io/ or search some of them on github/deviantart. 
+<i>Spirits</i> is a startpage featuring a three different themes by clicking on the <i>Shuffle</i> button.
 
+A startpage/homepage is a local website, namely you'll be able to access it thanks to files present on your computer (in general, it'll be a .htm file), and some browser like Firefox Mozilla and Google Chrome will allow you to set a custom homepage. What's more, thanks to some add-ons/extensions such as 'New Tab Homepage' for FF or 'New Tab Redirect' for Chrome, you'll be able to set this said startpage as you new tab page (amazing isn't it ?). There are a lot of custom startpage on the net, you can check this list of startpage http://startpages.github.io/ or search some of them on github/deviantart. 
 
-What's the structure of 'Spirits' ?
+Instruction
 -------------------------------
 
-There are 4 differents folders and two files (.htm and .css) : 
-- the first folder `background` contains, well, the background I used, there are three ones, if you want to change them or add some more, rename them like `background04.jpg`, it'll be easier to edit it in the others files.
-- in the second folder `banner` you'll find, surprise, the three differents banners I made for the startpage featuring Mako Mankanshoku from Kill La Kill, Sucy Manbavaran from Little Witch Academia and Nia Teppelin from Tengen Toppa Gurren Lagann (I really like these shows). Like the background, if you want to change the banner or add others ones, add the files in this folder and name them `banner4.jpg`.
-- the `icons` folder has the icons I used, there are only three : the favicon (ie the icon in the tab), the search and enter icons.
-- the `js` folder is very important since you'll have to edit some files to add banner/background or modify some functionalities.
-- the `.htm` file is the most important file since you'll need it to open the startpage on your browser, if you want to change the structure of the startpage you'll have to edit it.
-- the `.css` file will be needed if you want to change the aspect of the startpage, namely the background, the font-family, the size of a picture, etc.
+<strong>Step 1 : Right click on the <i>.htm</i> file and open it with a browser of your choice</strong>
 
-Features of 'Spirits'
+<strong>Step 2 : Set the startpage as the homepage </strong>
+<ul>
+
+<p>For Mozilla Firefox</p>
+<ol> 
+<li> go to the settings or copy/paste <i>about:preferences</i> in the URL bar. In <i>General</i>, copy/paste the URL of the startpage (it should be something like <i>file:///C:/Users/[Your name]/Documents/SPIRITS/index.htm</i> in <i>Home Page</i> and choose the option <i>Show my home page</i> for <i>When Firefox starts</i>.</li>
+<li> download the add-on <i>New Tab Homepage</i> (https://addons.mozilla.org/en-US/firefox/addon/new-tab-homepage/), it'll redirect you to your homepage each time you open a new tab.</li>
+</ol>
+<br>
+<p>For Google Chrome</p>
+<ol> 
+<li> go to the settings. In <i>Appearance</i>, check <i>show home page</i> and modify the link with the URL of the startpage. </li>
+<li> download the extension <i>New Tab Redirect</i> (https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna?hl=en). </li>
+</li>
+</ul>
+</ol>
+
+<strong>Step 3 : Install the font </strong>
+
+I use several fonts for the startpage.
+<ol>
+<li> <a href="https://www.fontsquirrel.com/fonts/montserrat">Montserrat</a> </li>
+<li> <a href="https://www.fontsquirrel.com/fonts/roboto">Roboto</a></li>
+<li> <a href="https://www.freejapanesefont.com/kf-himaji/">KFhimaji</a></li>
+</ol>
+
+Features
 -------------------------------
 
-There are two main features :
-- first, the button `SHUFFLE`, by clicking it you'll be able change the banner/background of the startpage, it'll be at random, otherwise it won't be fun !
-- second, in the search bar, by entering some special keys, such as `-y jazz music`, you'll be able to search directly on youtube and not on Google. Another exemple with `-w moe`, it'll search 'moe' on wikipedia. I took the code from another existing startpage, but can't seem to remember it now, will put the credits the moment I found it.
+<span><i>Spirits</i> has two main features.</span>
+<ol>
+<li>the button <i>Shuffle</i> : by clicking it, you'll be able change the banner/background of the startpage.</li>
+<li>In the search bar, by entering some special keys, such as `-y jazz music`, you'll be able to search directly on youtube and not on Google. Another exemple with `-w moe`, it'll search 'moe' on wikipedia.</li>
+</ol>
 
-How can I customize 'Spirits' ?
+Customizing
 -------------------------------
 
-### LINKS :
-- open the `.htm` file in a text editor (personally I use Sublime), search for `LINK1` and replace it by the name of a website you visit frequently (for exemple Facebook). 
-- after that, change the `http://link1.com/` with the URL of the said site (if we take Facebook, it'll be `https://www.facebook.com/`).
-- if you want to add a link, copy paste this code (you'll have to change the `ANOTHER LINK` and the href link of course) after the LINK6 (around line 67) :                                       
-
-``` htm 
-<a href="http://anotherlink.com/">
-    <li> ANOTHER LINK </li>
-</a> 
-```
-
-### DATES & MONTHS :
+### Dates and Months
 - open the `.htm` file in a text editor, search for 'var days' (it'll be at the beginning of the document, around line 19), and change the days (instead of 'dimanche' you can write 'sunday' or 'domingo').
 - search for 'var months' (under the var days) and change the months (instead of janvier, you can write january or enero). 
 
@@ -62,7 +76,7 @@ var months=['january', 'february', 'march', 'april', 'may', 'june', 'july', 'aug
 var dateString = (days[ m.getDay() ])  + " " +  ("0" + m.getDate()).slice(-2) + " " + (months[ m.getMonth() ])   + " " + m.getFullYear()            
 ```
 
-### BANNER & BACKGROUND
+### Banner and Background
 - first of all, like I said previously, change/add the banner in the banner folder and the background in the background folder and renamed them `background[insert a number].jpg` and `banner[insert a number].jpg` (you'll have to change the '[insert a number]' of course.
 - open the `js` folder, and edit `banner.js` in a text editor : if you one to add others banners/background, you'll have to copy paste this code, you'll have to change the number of course (if you want a fifth banner/background, replace the `4` by `5` : 
 
@@ -79,7 +93,7 @@ var dateString = (days[ m.getDay() ])  + " " +  ("0" + m.getDate()).slice(-2) + 
 var randomNumber = Math.floor((Math.random() * 6) + 1);
 ```
 
-### SEARCH 
+### Search
 - open the `js` folder and edit `search.js` in a text editor , you'll have to modify the following code 
 ``` javascript
 case "-u":
@@ -87,7 +101,7 @@ query = query.substr(3);
 window.location = "https://userstyles.org/styles/browse?search_terms=" 
 break;
 ```
-- first, you have to decide of a website, I will take `bato.to and a special key for this said site, I will take -b, thus you'll have the following code
+- first, you have to decide of a website (I will take bato.to) and a special key for this said site : I will take -b, thus you'll have the following code
 
 ``` javascript
 case "-b":
@@ -103,32 +117,19 @@ query = query.substr(3);
 window.location = "http://bato.to/search?name=" 
 break;
 ```
-How to use 'Spirits' ?
--------------------------------
-First of all, right click on the `.htm` file and open it with a browser of your choice.
 
-### FOR FIREFOX MOZILLA
-- go to the settings or copy/paste `about:preferences` in the URL bar. In `General`, copy/paste the URL of the startpage (it should be something like `file:///C:/Users/[Your name]/Documents/SPIRIT/index.htm` in `Home Page` and choose the option `Show my home page` for `When Firefox starts`.
-- download the add-on `New Tab Homepage` (https://addons.mozilla.org/en-US/firefox/addon/new-tab-homepage/), it'll redirect you to your homepage each time you open a new tab.
-
-### FOR GOOGLE CHROME
-- go to the settings. In `Appearance`, check `show home page` and modify the link with the URL of the startpage.
-- download the extension `New Tab Redirect` (https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna?hl=en)
-
-Before using the startpage, I suggest you to :
-- download the font I used, namely `Montserrat` (https://www.fontsquirrel.com/fonts/montserrat), `KFHimaji` (http://www.freejapanesefont.com/kf-himaji/) and `Roboto` (https://www.fontsquirrel.com/fonts/roboto), they're all free, lucky you !
-
-Source and Credits
+Disclaimer
 -------------------------------
 
-The banners were made in GIMP (and not PS unfortunately!) with the vectors of the characters and some background I found on the net :
-- http://hope1134.deviantart.com/art/Mako-Mankanshoku-Fight-Club-Spec-Two-Star-Uniform-442155412 (Mako vector) and http://www.designdiffusion.com/wp-content/uploads/2014/09/16.jpg (background),
-- http://znkhucast.deviantart.com/art/Sucy-Manbavaran-580216558 (Sucy Vector) and https://www.flickr.com/photos/megane_wakui/12815388355/(background),
-- konachan.com/post/show/32651 (Nia Vector) and http://burningmonk.deviantart.com/art/Shinjuku-Dusk-317124910 (background).
+<span>Source of the illustrations used.</span>
+<ol>
+<li><a href="http://hope1134.deviantart.com/art/Mako-Mankanshoku-Fight-Club-Spec-Two-Star-Uniform-442155412">Mako Vector</a> and <a href="http://www.designdiffusion.com/wp-content/uploads/2014/09/16.jpg">background</a></li>
+<li><a href="http://znkhucast.deviantart.com/art/Sucy-Manbavaran-580216558">Suzy Vector</a> and <a href="https://www.flickr.com/photos/megane_wakui/12815388355/">background</a></li>
+<li><a href="konachan.com/post/show/32651 ">Nia Vector</a> and <a href="http://burningmonk.deviantart.com/art/Shinjuku-Dusk-317124910">background</a></li>
+</ol>
 
-Where can I find you works ?
+Report
 -------------------------------
 
-I have a deviantart page : nicknameisfortheweak.deviantart.com
+If you find some issues or bug when using this startpage, don't hesitate to report it in the comments.
 
-And that's it, I hope you'll enjoy this startpage if you see this submission ! Like usual, if you find this startpage cool or bad, if you have questions, suggestions, there is a section called 'Comments', you can use it everytime !
