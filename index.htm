@@ -19,8 +19,7 @@
               var days = ['dimanche','lundi','mardi','mercredi','jeudi.','vendredi','samedi'];
               var months=['janvier', 'février', 'mars', 'avril', 'mai','juin', 'juillet', 'août','septembre','octobre', 'novembre','décembre'];
               var m = new Date();
-              var dateString = (days[ m.getDay() ])  + " " + 
-                         ("0" + m.getDate()).slice(-2) + " " + (months[ m.getMonth() ])   + " " + m.getFullYear()               
+              var dateString = (days[ m.getDay() ])  + " " +  ("0" + m.getDate()).slice(-2) + " " + (months[ m.getMonth() ])   + " " + m.getFullYear()               
                         document.getElementById('date').innerHTML = dateString;
                }
                updateDate();
@@ -40,32 +39,30 @@
                                 </div>
                             </div>
                             <div class="form">
-				<form method="get" action="http://www.google.com/search">
                                 <input  id="searchbox" name="q" type="text" autocomplete="off" class="cleardefault" maxlength="100"   placeholder="type faster than the speed of sound ..." size="17" autofocus="autofocus" />
                                 <input type="submit" id="image-button" value=""></input>
-				</form>
                             </div>
                     </div>
                     <div class="footer">
                         <div class="nav">
                                 <ul>
-                                        <a href="http://link1.com/">
-                                                <li> LINK1 </li>
+                                        <a href="http://www.kissanime.ru/">
+                                                <li> アニメ  </li>
                                         </a>
-                                        <a href="http://link2.com/">
-                                                <li> LINK2 </li>
+                                        <a href="http://exhentai.org/">
+                                                <li> へんたい</li>
                                         </a>
-                                        <a href="http://link3.com/">
-                                                <li> LINK3 </li>
+                                        <a href="http://www.4chan.org/">
+                                                <li>yotsuba</li>
                                         </a>
-                                        <a href="http://link4.com/">
-                                                <li> LINK4 </li>
+                                        <a href="https://soundcloud.com/stream">
+                                                <li>soundcloud</li>
                                         </a>
-                                        <a href="http://link5.com/">
-                                                <li> LINK5 </li>
+                                        <a href="http://www.pixiv.net/">
+                                                <li>ピクシブ</li>
                                         </a>
-                                        <a href="http://link6.com/">
-                                                <li> LINK6 </li>
+                                        <a href="https://www.nyaa.se/">
+                                                <li>nya.se</li>
                                         </a>
                                 </ul>
                         </div>
