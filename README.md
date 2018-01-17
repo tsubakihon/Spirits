@@ -1,12 +1,12 @@
 # Spirits
 
-![screenshot](https://s1.gifyu.com/images/Screenshot-1211.png)
+![screenshot](https://s1.gifyu.com/images/Screenshot-1255.png)
 1st theme (KLK)
 
-![screenshot](https://s1.gifyu.com/images/Screenshot-1212.png)
+![screenshot](https://s1.gifyu.com/images/Screenshot-1254.png)
 2nd theme (LWA)
 
-![screenshot](https://s1.gifyu.com/images/Screenshot-1213.png)
+![screenshot](https://s1.gifyu.com/images/Screenshot-1251.png)
 3rd theme (TTGL)  
 
 [Live Demo](https://catgrills.github.io/Spirits/) of <i>Spirits</i>.
@@ -16,7 +16,7 @@ About
 
 <i>Spirits</i> is a startpage featuring a three different themes by clicking on the <i>Shuffle</i> button.
 
-A startpage/homepage is a local website, namely you'll be able to access it thanks to files present on your computer (in general, it'll be a .htm file), and some browser like Firefox Mozilla and Google Chrome will allow you to set a custom homepage. What's more, thanks to some add-ons/extensions such as 'New Tab Homepage' for FF or 'New Tab Redirect' for Chrome, you'll be able to set this said startpage as you new tab page (amazing isn't it ?). There are a lot of custom startpage on the net, you can check this list of startpage http://startpages.github.io/ or search some of them on github/deviantart. 
+A startpage/homepage is a local website, namely you'll be able to access it thanks to files present on your computer (in general, it'll be a .htm file), and some browser like Firefox Mozilla and Google Chrome will allow you to set a custom homepage. What's more, thanks to some add-ons/extensions such as 'New Tab Homepage' for FF or 'New Tab Redirect' for Chrome, you'll be able to set this said startpage as your new tab page (amazing isn't it ?). There are a lot of custom startpage on the net, you can check this list of startpage http://startpages.github.io/ or search some of them on github/deviantart. 
 
 Instruction
 -------------------------------
