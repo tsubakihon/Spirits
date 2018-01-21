@@ -16,7 +16,7 @@ About
 
 <i>Spirits</i> is a startpage featuring a three different themes by clicking on the <i>Shuffle</i> button.
 
-A startpage/homepage is a local website, namely you'll be able to access it thanks to files present on your computer (in general, it'll be a .htm file), and some browser like Firefox Mozilla and Google Chrome will allow you to set a custom homepage. What's more, thanks to some add-ons/extensions such as 'New Tab Homepage' for FF or 'New Tab Redirect' for Chrome, you'll be able to set this said startpage as your new tab page (amazing isn't it ?). There are a lot of custom startpage on the net, you can check this list of startpage http://startpages.github.io/ or search some of them on github/deviantart. 
+Startpages are locally hosted, usually, webpage that serves as a homepage for your browser.
 
 Instruction
 -------------------------------
@@ -44,9 +44,9 @@ Instruction
 
 I use several fonts for the startpage.
 <ol>
+<li> <a href="https://www.freejapanesefont.com/kf-himaji/">KFhimaji</a></li>
 <li> <a href="https://www.fontsquirrel.com/fonts/montserrat">Montserrat</a> </li>
 <li> <a href="https://www.fontsquirrel.com/fonts/roboto">Roboto</a></li>
-<li> <a href="https://www.freejapanesefont.com/kf-himaji/">KFhimaji</a></li>
 </ol>
 
 Features
@@ -131,5 +131,5 @@ Disclaimer
 Report
 -------------------------------
 
-If you find some issues or bug when using this startpage, don't hesitate to report it in the comments.
+If you find some issues or bug while using this startpage, don't hesitate to report it in the comments.
 
