@@ -1,13 +1,6 @@
 # Spirits
 
-![screenshot](https://s1.gifyu.com/images/Screenshot-1255.png)
-1st theme (KLK)
-
-![screenshot](https://s1.gifyu.com/images/Screenshot-1254.png)
-2nd theme (LWA)
-
-![screenshot](https://s1.gifyu.com/images/Screenshot-1251.png)
-3rd theme (TTGL)  
+<img src="preview_spirits.png" width="100%">
 
 [Live Demo](https://catgrills.github.io/Spirits/) of <i>Spirits</i>.
 
