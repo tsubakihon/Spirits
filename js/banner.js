@@ -8,12 +8,12 @@ $("#container").css('background-image', localStorage.getItem("#container"));
 			
 		}, 
 		2: {
-			image: "banner/banner2.jpg",
+			image: "banner/banner2.png",
 			landscape:"background/background02.jpg",
 			
 		}, 
 		3: {
-			image: "banner/banner3.jpg",
+			image: "banner/banner3.png",
 			landscape:"background/background03.jpg",
 			
 		}, 
